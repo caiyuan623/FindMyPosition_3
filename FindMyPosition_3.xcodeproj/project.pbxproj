@@ -14,6 +14,7 @@
 		BC821EB91F32FDF00018534B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC821EB71F32FDF00018534B /* LaunchScreen.storyboard */; };
 		BC821EC41F32FDF00018534B /* FindMyPosition_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC821EC31F32FDF00018534B /* FindMyPosition_3Tests.swift */; };
 		BC821ECF1F32FDF00018534B /* FindMyPosition_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC821ECE1F32FDF00018534B /* FindMyPosition_3UITests.swift */; };
+		BC821EDE1F32FE0A0018534B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC821EDD1F32FE0A0018534B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BC821ECA1F32FDF00018534B /* FindMyPosition_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyPosition_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC821ECE1F32FDF00018534B /* FindMyPosition_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyPosition_3UITests.swift; sourceTree = "<group>"; };
 		BC821ED01F32FDF00018534B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC821EDD1F32FE0A0018534B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC821EDE1F32FE0A0018534B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				BC821EC21F32FDF00018534B /* FindMyPosition_3Tests */,
 				BC821ECD1F32FDF00018534B /* FindMyPosition_3UITests */,
 				BC821EAC1F32FDF00018534B /* Products */,
+				BC821EDC1F32FE0A0018534B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				BC821ED01F32FDF00018534B /* Info.plist */,
 			);
 			path = FindMyPosition_3UITests;
+			sourceTree = "<group>";
+		};
+		BC821EDC1F32FE0A0018534B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC821EDD1F32FE0A0018534B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +205,7 @@
 				TargetAttributes = {
 					BC821EAA1F32FDF00018534B = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = H8Q95BTHC9;
 						ProvisioningStyle = Automatic;
 					};
 					BC821EBE1F32FDF00018534B = {
@@ -414,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8Q95BTHC9;
 				INFOPLIST_FILE = FindMyPosition_3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lemo.FindMyPosition-3";
@@ -426,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8Q95BTHC9;
 				INFOPLIST_FILE = FindMyPosition_3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lemo.FindMyPosition-3";
